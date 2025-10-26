@@ -57,14 +57,3 @@
 
 
 
-[1](https://habr.com/ru/articles/422085/)
-[2](https://neerc.ifmo.ru/wiki/index.php?title=%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BE%D0%BC)
-[3](https://younglinux.info/algorithm/sort_min)
-[4](https://foxford.ru/wiki/informatika/sortirovka-vyborom)
-[5](https://www.youtube.com/watch?v=KZxP5JqtKKA)
-[6](http://aliev.me/runestone/SortSearch/TheSelectionSort.html)
-[7](https://javarush.com/quests/lectures/questharvardcs50.level03.lecture08)
-[8](https://blog.skillfactory.ru/sorting-algorithm/)
-[9](https://cs.mipt.ru/algo/lessons/lab8.html)
-[10](https://ru.algorithmica.org/cs/sorting/selection/)
-[11](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/120399756/81e067f8-84d3-490e-869a-9145323c9923/Metodicheskie_rekomendatsii_dlia_vypolneniia_laboratornykh_rabot_3_1.pdf)
