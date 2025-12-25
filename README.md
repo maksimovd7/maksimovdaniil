@@ -55,6 +55,7 @@ Dropout(0.2) - дропаут 20%
 Dense(32, activation='relu') - 32 нейрона, ReLU
 BatchNormalization()
 Dropout(0.15) - дропаут 15%
+
 Выходной слой:
 
 Dense(1, activation='sigmoid') - 1 нейрон, сигмоида для бинарной классификации
