@@ -104,8 +104,11 @@ Accuracy (точность)
 Как работает:
 
 class GradientFlowController:
+
     def get_callbacks(self):
+
         # Возвращает три алгоритма контроля обучения
+
 Три встроенных алгоритма:
 
 Алгоритм ранней остановки (EarlyStopping):
@@ -113,11 +116,13 @@ class GradientFlowController:
 Мониторит val_accuracy
 Останавливает обучение если нет улучшений 15 эпох
 Восстанавливает лучшие веса
+
 Алгоритм уменьшения скорости обучения (ReduceLROnPlateau):
 
 Мониторит val_loss
 Уменьшает learning_rate в 2 раза если нет улучшений 8 эпох
 Минимальный learning_rate = 0.00001
+
 Алгоритм сохранения модели (ModelCheckpoint):
 
 Сохраняет лучшую модель по val_accuracy
