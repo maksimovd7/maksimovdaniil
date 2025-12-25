@@ -138,3 +138,23 @@ class GradientFlowController:
 слайд 7-8 
 
 описание гиперпараметров модели
+
+
+
+
+| № слоя | Тип слоя         | Кол-во нейронов        | Функция активации | Дополнительно                              |
+|-------|------------------|------------------------|-------------------|--------------------------------------------|
+| 1     | Входной          | `X_train.shape[1]`     | —                 | Стандартизация (StandardScaler)           |
+| 2     | Dense            | 256                    | ReLU              | BatchNormalization + Dropout 0.3          |
+| 3     | Dense            | 128                    | ReLU              | BatchNormalization + Dropout 0.25         |
+| 4     | Dense            | 64                     | ReLU              | BatchNormalization + Dropout 0.2          |
+| 5     | Dense            | 32                     | ReLU              | BatchNormalization + Dropout 0.15         |
+| 6     | Выходной Dense   | 1                      | Sigmoid           | Бинарная классификация (риск депрессии)   |
+
+**Гиперпараметры**
+
+- Функция потерь: Binary Crossentropy (бинарная кросс‑энтропия).  
+- Оптимизатор: Adam, learning rate = 0.0005, beta1 = 0.9, beta2 = 0.999, epsilon = 1e‑7.  
+- Метрика: accuracy.  
+- Регуляризация: Dropout (0.3 / 0.25 / 0.2 / 0.15) + BatchNormalization в скрытых слоях.
+
