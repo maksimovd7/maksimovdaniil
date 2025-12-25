@@ -105,9 +105,7 @@ Accuracy (точность)
 
 
 class GradientFlowController:
-
     def get_callbacks(self):
-
         # Возвращает три алгоритма контроля обучения
 
 Три встроенных алгоритма:
